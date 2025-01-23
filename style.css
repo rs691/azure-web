@@ -6,4 +6,9 @@ h1{
     color: white;
     padding: 10px;
     text-align: center;
+    }
+    
+nav li:hover{
+    opacity: 0.5;
+   
 }

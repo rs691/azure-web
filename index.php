@@ -9,9 +9,16 @@
 </head>
 <body class="bg-gray-100">
   <?php
-  require_once 'login_handler.php';
+  require 'login_handler.php';
   $config = require 'config.php';
   
+  
+
+  if (!isset($config['database'])) { // Or 'db' depending on your preference
+      die('Database configuration is missing.');
+  }
+  
+
   try {
       $loginHandler = new LoginHandler($config['database']);
       
