@@ -1,27 +1,12 @@
-# azure-web
-# Project Name
+# React + Vite
 
-https://delightful-sky-05e7bac0f.4.azurestaticapps.net
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-![Project Screenshot](screenshots/main-screenshot.png)
+Currently, two official plugins are available:
 
-## Overview
-Brief description of what your project does and its key features
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Technologies Used
-- Backend: PHP 8.1, MySQL 8.0
-- Frontend: JavaScript, HTML5, CSS3
-- Other tools: [list any frameworks/libraries]
+## Expanding the ESLint configuration
 
-## Key Features
-- Feature 1: Description
-- Feature 2: Description
-
-## Local Development Setup
-1. Clone the repository
-2. Install dependencies
-3. Configure database
-4. Start local server
-
-## Database Schema
-[Include ERD or basic schema description]
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
